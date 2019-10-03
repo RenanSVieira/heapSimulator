@@ -12,7 +12,7 @@ ele lê de um arquivo com '0's e '1's e transfere as informações para um vetor
 
 O programa disponibiliza opções para visualizar o heap/lista, adicionar e remover conteúdo no heap.
 
-Ao visualizar as listas, você receberá vários pares de números aos quais indicam, respectivamente, o endereço de início do contúdo e o seu tamanho na memória.
+Ao visualizar as listas, você receberá vários pares de números aos quais indicam, respectivamente, o endereço de início do conteúdo e o seu tamanho na memória.
 
 4 estratégias estão disponíveis ao adicionar conteúdo no heap:
 
