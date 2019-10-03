@@ -5,6 +5,7 @@ Um programa feito para simular uma memória heap
 ele lê de um arquivo com '0's e '1's e transfere as informações para um vetor "heap" e uma lista encadeada que agora contém as informações do heap:
 
 #id = diz se esse espaço está vazio (0) ou ocupado (1) na memória
+
 #end = endereço de início
 #tam = tamanho do espaço
 
