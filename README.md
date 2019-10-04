@@ -1,6 +1,6 @@
 # heapSimulator
 
-Um programa feito para simular uma memória heap
+Um programa feito para simular uma área para alocações dinâmicas da memória, chamada de heap.
 
 ele lê de um arquivo com '0's e '1's e transfere as informações para um vetor "heap" e uma lista encadeada que agora contém as informações do heap:
 
@@ -18,8 +18,8 @@ Ao visualizar as listas, você receberá vários pares de números aos quais ind
 
 first fit --> a partir do início do heap, adiciona o conteúdo desejado no primeiro espaço disponível.
 
-best fit --> adiciona o conteúdo no espaço de memória em que haverá o menor "desperdício" de memória possível, tentando sempre encaixar no espaço em que ele encaixe perfeitamente sempre que possível.
+best fit --> adiciona o conteúdo no espaço de memória em que haverá a menor segmentação de memória possível, tentando sempre encaixar no espaço em que ele encaixe perfeitamente sempre que possível.
 
-worst fit --> adiciona o conteúdo no espaço de memória em que haverá o maior "desperdício" de memória possível, tentando sempre deixar o maior espaço vazio sobrando na memória.
+worst fit --> adiciona o conteúdo no espaço de memória em que haverá a maior segmentação de memória possível, tentando sempre deixar o maior espaço vazio sobrando na memória.
 
 next fit --> a partir do último endereço adicionado anteriormente, adiciona o conteúdo desejado no primeiro espaço disponível.
